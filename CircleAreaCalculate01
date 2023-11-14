@@ -1,12 +1,18 @@
-#Area of circle from radius
+#Area of circle and circumference from radius
 #radius as variable
 #answer output part one
-answer_text = "The circle´s area equals "
+#add answer output circumference
+answer_text_area = "The circle´s area equals "
+answer_text_circumference = "The circle´s circumference equals "
 #get radius input
-print("To calculate the area of a circle please enter the circle radius")
+#edit radius input text
+print("To calculate the area and circumference of a circle, please enter the circle radius")
 import math 
 r = float(input("Enter the radius here "))
 #calculate
 #display result
+#add circumference calculation
+circumference = 2 * math.pi * r
 area = r * r * math.pi
-print ( answer_text , area )
+print ( answer_text_area , area )
+print ( answer_text_circumference, circumference )
