@@ -1,0 +1,12 @@
+#Area of circle from radius
+#radius as variable
+#answer output part one
+answer_text = "The circle´s area equals "
+#get radius input
+print("To calculate the area of a circle please enter the circle radius")
+import math 
+r = float(input("Enter the radius here "))
+#calculate
+#display result
+area = r * r * math.pi
+print ( answer_text , area )
